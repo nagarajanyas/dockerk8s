@@ -56,7 +56,7 @@ spec:
             - name: ELASTIC_APM_SERVER_URL 
               value: "http://apm-server.elasticsearch.svc.cluster.local:8200" 
             - name: ELASTIC_APM_SERVICE_NAME 
-              value: "weather-services" 
+              value: "weather-services-naga" 
             - name: ELASTIC_APM_APPLICATION_PACKAGES 
               value: "in.brainupgrade" 
             - name: ELASTIC_APM_ENVIRONMENT 
