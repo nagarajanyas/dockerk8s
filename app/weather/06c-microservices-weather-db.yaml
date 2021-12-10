@@ -32,6 +32,13 @@ spec:
         name: data
       containers:
       - image: mariadb:10.3
+        resources: 
+          limits:
+            cpu: 25m
+            memory: 128Mi
+          requests:
+            cpu: 25m
+            memory: 128Mi 
         name: mariadb
         ports:
         - containerPort: 3306
